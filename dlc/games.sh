@@ -111,7 +111,7 @@ cmd_cowsay() {
     fi
     local len=${#msg}
     local border
-    border=$(echo '%*s' "$len" '' | tr ' ' '-')
+    border=$(printf '%*s' "$len" '' | tr ' ' '-')
     cat <<EOF
  +$border+
  | $msg |
