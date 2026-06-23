@@ -5,7 +5,7 @@ A vibe-coded mini kernel in Bash.
 # Features
 - a virtual file system
 - a persistent file system (the persistent file system is stored in ~/.bashkernel/fs)
-- 6 DLCs (a.k.a. extension packs)
+- 7 DLCs (a.k.a. extension packs)
 - a shell (duh)
 # DLCs
 - games.sh (games)
@@ -14,6 +14,7 @@ A vibe-coded mini kernel in Bash.
 - editor.sh (text editor, much harder than Vim)
 - monitor.sh (system monitoring utilities)
 - temp.sh (template)
+- textutils.sh (text utilities)
 # How to use
 1. Clone this GitHub repository with `git clone https://github.com/thetuxguy2015/bashkernel.git`.
 2. chmod kernel.sh with `chmod +x ./kernel.sh`.
